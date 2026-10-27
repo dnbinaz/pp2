@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check file exists 
-      run: test -f README.md
+        run: test -f README.md
